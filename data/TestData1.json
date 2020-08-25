@@ -1,0 +1,110 @@
+[
+  {
+    "project": {
+      "id": "e9962133-1bb7-4d34-9791-b939dd18b0ae",
+      "name": "CDB工业设计",
+      "confirmAt": 1575129600000,
+      "deliveryAt": 1575129600001,
+      "blocks": [
+        {
+          "id": "99282c90-9648-4f2b-bcf7-c72169ac3a65",
+          "name": "商业诉求",
+          "projectId": "e9962133-1bb7-4d34-9791-b939dd18b0ae",
+          "dependencies": [],
+          "endTimeLock": 1577635200000,
+          "tasks": [
+            {
+              "id": "67091df8-3e27-478e-bc57-9bacf9078101",
+              "name": "商业诉求文档1",
+              "hours": 24,
+              "count": 2,
+              "taskType": {
+                "id": "flat-marketing",
+                "name": "平面",
+                "code": "flat-marketing"
+              }
+            }
+          ]
+        },
+        {
+          "id": "99282c90-9648-4f2b-bcf7-c72169ac3a655",
+          "name": "概念提案",
+          "projectId": "e9962133-1bb7-4d34-9791-b939dd18b0ae",
+          "dependencies": [
+            "99282c90-9648-4f2b-bcf7-c72169ac3a65"
+          ],
+          "tasks": [
+            {
+              "id": "67091df8-3e27-478e-bc57-9bacf9078101",
+              "name": "包装规范",
+              "hours": 16,
+              "count": 1,
+              "taskType": {
+                "id": "flat-marketing",
+                "name": "平面",
+                "code": "flat-marketing"
+              }
+            },
+            {
+              "id": "67091df8-3e27-478e-bc57-9bacf9078102",
+              "name": "指导规范",
+              "hours": 8,
+              "count": 1,
+              "taskType": {
+                "id": "3D",
+                "name": "3D",
+                "code": "3D"
+              }
+            }
+          ]
+        },
+        {
+          "id": "99282c90-9648-4f2b-bcf7-c72169ac3a652",
+          "name": "产品设计",
+          "projectId": "e9962133-1bb7-4d34-9791-b939dd18b0ae",
+          "dependencies": [
+            "99282c90-9648-4f2b-bcf7-c72169ac3a65"
+          ],
+          "endTimeLock": 1577635200000,
+          "tasks": [
+            {
+              "id": "67091df8-3e27-478e-bc57-9bacf9078101",
+              "name": "创意脚本",
+              "hours": 16,
+              "count": 1,
+              "taskType": {
+                "id": "BANNER",
+                "name": "BANNER",
+                "code": "BANNER"
+              }
+            }
+          ]
+        },
+        {
+          "id": "99282c90-9648-4f2b-bcf7-c72169ac3a6527",
+          "name": "线上物料",
+          "projectId": "e9962133-1bb7-4d34-9791-b939dd18b0ae",
+          "dependencies": [
+            "99282c90-9648-4f2b-bcf7-c72169ac3a652",
+            "99282c90-9648-4f2b-bcf7-c72169ac3a655"
+          ],
+          "endTimeLock": 1578758400000,
+          "tasks": [
+            {
+              "id": "67091df8-3e27-478e-bc57-9bacf9078101",
+              "name": "动画",
+              "hours": 40,
+              "count": 1,
+              "taskType": {
+                "id": "VIDEO",
+                "name": "动画",
+                "code": "VIDEO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
+
