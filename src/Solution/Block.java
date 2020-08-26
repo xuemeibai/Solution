@@ -9,7 +9,7 @@ public class Block {
     public String[] dependencies;
     public Long endTimeLock;
     public List<Task> tasks;
-    public Integer referNum;
+    public Integer referNum ;
     public Long len;
     public Long workload;
 
